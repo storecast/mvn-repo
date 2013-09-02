@@ -1,1 +1,1 @@
-mvn deploy:deploy-file -DgroupId=org.liquibase -DartifactId=liquibase-core -Dversion=3.0.0-txtr3 -Dpackaging=jar -Dfile="/home/gregor/source/liquibase/liquibase-core/target/liquibase-3.0.0-txtr3.jar" -Durl=file:/home/gregor/source/txtr-mvn-repo
+mvn deploy:deploy-file -DgroupId=org.liquibase -DartifactId=liquibase-core -Dversion=3.0.0-txtr4 -Dpackaging=jar -Dfile="/home/gregor/source/liquibase/liquibase-core/target/liquibase-3.0.0-txtr2-SNAPSHOT.jar" -Durl=file:/home/gregor/source/txtr-mvn-repo
