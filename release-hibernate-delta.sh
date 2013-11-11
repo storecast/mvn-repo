@@ -1,1 +1,3 @@
-mvn deploy:deploy-file -DgroupId=com.txtr -DartifactId=hibernate-delta -Dversion=0.11 -Dpackaging=jar -Dfile="/home/gregor/source/hibernate-delta/target/hibernate-delta-0.11.jar" -Durl=file:/home/gregor/source/txtr-mvn-repo
+basedir="$(dirname "$PWD")"
+version=0.12
+mvn deploy:deploy-file -DgroupId=com.txtr -DartifactId=hibernate-delta -Dversion=$version -Dpackaging=jar -Dfile=""$basedir"/hibernate-delta/target/hibernate-delta-"$version".jar" -Durl=file:"$basedir"/mvn-repo
