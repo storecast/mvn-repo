@@ -3,7 +3,7 @@
   <groupId>com.txtr</groupId>
   <artifactId>hibernate-delta</artifactId>
   <versioning>
-    <release>0.15</release>
+    <release>0.16</release>
     <versions>
       <version>0.1</version>
       <version>0.2</version>
@@ -20,7 +20,8 @@
       <version>0.13</version>
       <version>0.14</version>
       <version>0.15</version>
+      <version>0.16</version>
     </versions>
-    <lastUpdated>20140205080158</lastUpdated>
+    <lastUpdated>20140205083006</lastUpdated>
   </versioning>
 </metadata>
